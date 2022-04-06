@@ -82,6 +82,12 @@ h2 {
     padding: 15px;
 }
 
+.social_media {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .social_media a {
     background-color: rgb(207, 205, 205);
     padding: 10px 15px;
@@ -139,6 +145,9 @@ footer div a:hover {
     .carousel-cell {
         width: 80%;
         height: 450px;
+    }
+    .social_media {
+        flex-direction: column;
     }
 }
 
