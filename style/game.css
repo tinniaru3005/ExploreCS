@@ -47,7 +47,7 @@ body {
 }
 
 #one:hover {
-    background-image: url(posters/DBMS.png);
+    background-image: url(/ExploreCS/posters/DBMS.png);
     background-size: 200px 200px;
 }
 #two:hover {
