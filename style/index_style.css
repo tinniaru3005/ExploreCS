@@ -88,6 +88,7 @@ h2 {
     text-decoration: none;
     border-radius: 30px;
     font-size: 1.25em;
+    display: flex;
 }
 
 .social_media a:hover {
@@ -100,6 +101,7 @@ footer div a {
     text-decoration: none;
     border-radius: 30px;
     color: black;
+    display: flex;
 }
 
 footer div a:hover {
@@ -139,6 +141,12 @@ footer div a:hover {
     .carousel-cell {
         width: 80%;
         height: 450px;
+    }
+    .social_media a{
+        flex-direction: column;
+    }
+    footer div a {
+        flex-direction: column;
     }
 }
 
