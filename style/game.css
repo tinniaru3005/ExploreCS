@@ -33,7 +33,7 @@ body {
     border: 3px rgb(177, 159, 58);
     margin: 10px;
     border-radius: 3px;
-    background-image: url(images/mystery.png);
+    background-image: url('images/mystery.png');
     background-size: 100%;
     transition-duration: 2s;
 }
@@ -47,34 +47,34 @@ body {
 }
 
 #one:hover {
-    background-image: url(posters/DBMS.png);
+    background-image: url('posters/DBMS.png');
     background-size: 200px 200px;
 }
 #two:hover {
-    background-image: url(posters/computer\ network.jpg);
+    background-image: url('posters/computer\ network.jpg');
     background-size: 200px 200px;
 }
 #three:hover {
-    background-image: url(posters/Deep\ Learning.jpg);
+    background-image: url('posters/Deep\ Learning.jpg');
     background-size: 200px 200px;
 }
 #four:hover {
-    background-image: url(posters/machine\ learning.jpg);
+    background-image: url('posters/machine\ learning.jpg');
     background-size: 200px 200px;
 }
 #five:hover {
-    background-image: url(posters/neural\ network.jpg);
+    background-image: url('posters/neural\ network.jpg');
     background-size: 200px 200px;
 }
 #six:hover {
-    background-image: url(posters/object\ oriented\ programming.jpg);
+    background-image: url('posters/object\ oriented\ programming.jpg');
     background-size: 200px 200px;
 }
 #seven:hover {
-    background-image: url(posters/Operating\ System.jpg);
+    background-image: url('posters/Operating\ System.jpg');
     background-size: 200px 200px;
 }
 #eight:hover {
-    background-image: url(posters/smart\ city.jpg);
+    background-image: url('posters/smart\ city.jpg');
     background-size: 200px 200px;
 }
