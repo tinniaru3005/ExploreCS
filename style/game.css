@@ -33,7 +33,7 @@ body {
     border: 3px rgb(177, 159, 58);
     margin: 10px;
     border-radius: 3px;
-    background-image: url(images/mystery.png);
+    background-image: url(/ExploreCS/images/mystery.png);
     background-size: 100%;
     transition-duration: 2s;
 }
