@@ -100,6 +100,14 @@ h2 {
     background-color: rgb(177, 177, 177);
 }
 
+footer div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
 footer div a {
     background-color: rgb(207, 205, 205);
     padding: 10px 15px;
@@ -147,6 +155,9 @@ footer div a:hover {
         height: 450px;
     }
     .social_media {
+        flex-direction: column;
+    }
+    footer div {
         flex-direction: column;
     }
 }
