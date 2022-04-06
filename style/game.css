@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+.heading {
+    background-color: rgb(255, 236, 67);
+    color: white;
+    padding: 10px;
+    border: 1px solid lightgray;
+    margin: 5px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+}
+
+.container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 3px rgb(177, 159, 58);
+    margin: 10px;
+    border-radius: 3px;
+    background-image: url(/images/mystery.png);
+    background-size: 100%;
+    transition-duration: 2s;
+}
+
+.main_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+#one:hover {
+    background-image: url(/posters/DBMS.png);
+    background-size: 200px 200px;
+}
+#two:hover {
+    background-image: url(/posters/computer\ network.jpg);
+    background-size: 200px 200px;
+}
+#three:hover {
+    background-image: url(/posters/Deep\ Learning.jpg);
+    background-size: 200px 200px;
+}
+#four:hover {
+    background-image: url(/posters/machine\ learning.jpg);
+    background-size: 200px 200px;
+}
+#five:hover {
+    background-image: url(/posters/neural\ network.jpg);
+    background-size: 200px 200px;
+}
+#six:hover {
+    background-image: url(/posters/object\ oriented\ programming.jpg);
+    background-size: 200px 200px;
+}
+#seven:hover {
+    background-image: url(/posters/Operating\ System.jpg);
+    background-size: 200px 200px;
+}
+#eight:hover {
+    background-image: url(/posters/smart\ city.jpg);
+    background-size: 200px 200px;
+}

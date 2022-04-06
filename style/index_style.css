@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+header, nav {
+    background-color: rgb(153, 91, 168);
+    color: white;
+    padding: 10px;
+    border: 1px solid lightgray;
+    margin: 5px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu_button:hover {
+    background-color: black;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+}
+
+.container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+.myself {
+    clip-path: ellipse(30% 40% at 50% 50%);
+    float: left;
+}
+
+.cleared {
+    clear: left;
+}
+
+nav {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+}
+
+#computer_science {
+    width: 30%;
+    border-radius: 4px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.sub_heading {
+    background: rgb(28,25,81);
+    background: linear-gradient(90deg, rgba(28,25,81,1) 0%, rgba(103,42,141,1) 50%, rgba(0,117,255,1) 100%);
+    padding: 10px 55px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+}
+
+.carousel-cell {
+    width: 60%;
+    height: 200px;
+    margin-right: 10px;
+    background: rgb(122, 73, 212);
+    border-radius: 5px;
+}
+
+.carousel-cell {
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.social_media a {
+    background-color: rgb(207, 205, 205);
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.25em;
+}
+
+.social_media a:hover {
+    background-color: rgb(177, 177, 177);
+}
+
+footer div a {
+    background-color: rgb(207, 205, 205);
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: black;
+}
+
+footer div a:hover {
+    background-color: rgb(177, 177, 177);
+}
+
+.github_handle {
+    color: #211F1F;
+}
+.twitter_handle {
+    color: rgb(29, 161, 242);
+}
+.linkedin_handle {
+    color: #0e76a8;
+}
+.facebook_handle {
+    color: #3b5998;
+}
+.instagram_handle {
+    color: #8a3ab9;
+}
+
+#responsible_ai {
+    width: 35%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+}
+
