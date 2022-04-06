@@ -142,11 +142,5 @@ footer div a:hover {
         width: 80%;
         height: 450px;
     }
-    .social_media a{
-        flex-direction: column;
-    }
-    footer div a {
-        flex-direction: column;
-    }
 }
 
