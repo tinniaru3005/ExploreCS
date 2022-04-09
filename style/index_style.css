@@ -5,7 +5,6 @@
 header, nav {
     background-color: rgb(153, 91, 168);
     color: white;
-    padding: 10px;
     border: 1px solid lightgray;
     margin: 5px;
     border-radius: 4px;
@@ -15,6 +14,7 @@ header, nav {
 nav a{
     color: white;
     text-decoration: none;
+    padding: 15px;
 }
 
 .menu_button:hover {
@@ -152,6 +152,9 @@ footer div a:hover {
     nav {
         flex-direction: column;
         padding: 10px 0px;
+    }
+    nav a {
+        padding: 5px;
     }
     .carousel-cell {
         width: 80%;
