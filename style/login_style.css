@@ -59,3 +59,14 @@ h1 img {
     width: 25%;
     border-radius: 4px;
 }
+
+.home {
+    background-color: rgb(207, 205, 205);
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: black;
+}
+.home:hover {
+    background-color: rgb(177, 177, 177);
+}
