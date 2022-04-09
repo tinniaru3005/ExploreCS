@@ -31,24 +31,6 @@ body {
     border-radius: 4px;
 }
 
-@media all and (min-width: 1001px){
-    #sidebar ul li a:after {
-        content: " (" attr(data-email) ")";
-        font-size: 11px;
-        font-style: italic;
-        color: rgb(74, 143, 148);
-    }
-}
-
-@media all and (max-width :1000px) and (min-width: 701px) {
-    #sidebar ul li a:before {
-        content: "Email: ";
-        font-size: 11px;
-        font-style: italic;
-        color: rgb(74, 143, 148);
-    }
-}
-
 .home {
     background-color: rgb(207, 205, 205);
     padding: 10px 15px;
@@ -59,6 +41,26 @@ body {
 .home:hover {
     background-color: rgb(177, 177, 177);
 }
+
+@media all and (min-width: 1001px){
+    #sidebar ul li a:after {
+        content: " (" attr(data-email) ")";
+        font-size: 11px;
+        font-style: italic;
+        color: rgb(74, 143, 148);
+    }
+}
+
+
+@media all and (max-width :1000px) and (min-width: 701px) {
+    #sidebar ul li a:before {
+        content: "Email: ";
+        font-size: 11px;
+        font-style: italic;
+        color: rgb(74, 143, 148);
+    }
+}
+
 
 @media all and (max-width :700px) and (min-width: 520px) , (min-width: 1151px){
     #sidebar ul li a {
