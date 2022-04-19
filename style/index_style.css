@@ -126,17 +126,14 @@ footer div a:hover {
 .hackerrank_handle {
     color: #102a4e;
 }
-.twitter_handle {
-    color: rgb(29, 161, 242);
-}
 .linkedin_handle {
     color: #0e76a8;
 }
-.facebook_handle {
-    color: #3b5998;
+.google_developers_handle {
+    color: #4885ed;
 }
-.instagram_handle {
-    color: #8a3ab9;
+.coursera_handle {
+    color: 0056d2;
 }
 
 #responsible_ai {
